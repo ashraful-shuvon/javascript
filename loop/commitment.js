@@ -15,8 +15,7 @@
 //     message++;
 //     count++;
 //   }
-  
 
-for(let message = 1; message <=60; message++){
-  console.log(message, ". I will invest at least 6 hrs every single day for next 60 days!");
-}
+// for(let message = 1; message <=60; message++){
+//   console.log(message, ". I will invest at least 6 hrs every single day for next 60 days!");
+// }

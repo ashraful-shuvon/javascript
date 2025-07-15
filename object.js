@@ -74,13 +74,20 @@ console.log(count);
 // key: city | type:  string
 // key: isStudent | type: boolean
 
-let myObject = {
-  name: "John Doe",
-  age: 25,
-  city: "Example City",
-  isStudent: true,
-};
+// let myObject = {
+//   name: "John Doe",
+//   age: 25,
+//   city: "Example City",
+//   isStudent: true,
+// };
 
-for (const obj in myObject) {
-  console.log("key:", obj, "|", "type:", typeof myObject[obj]);
-}
+// for (const obj in myObject) {
+//   console.log("key:", obj, "|", "type:", typeof myObject[obj]);
+// }
+
+// let str = "Mississippi";
+// console.log(str.indexOf("i", 3));
+
+const str = "Hello";
+str[0] = "h";
+console.log(str);
