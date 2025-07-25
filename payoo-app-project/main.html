@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-800">
+    <section class=" min-h-screen bg-gray-200 max-w-screen-sm mx-auto ">
+        <header>
+            <nav class="flex justify-between items-center p-7">
+                <div class="flex justify-center items-center gap-3">
+                    <img class="w-12" src="./Payoo-MFS-Resources/assets/Group.png" alt="">
+                    <div>
+                        <h1 class="text-xl font-bold ">$45000</h1>
+                        <p class="text-sm text-opacity-50 font-normal">Available balance</p>
+                    </div>
+                </div>
+                <button class="btn px-7 rounded-lg border-gray-400">Logout</button>
+            </nav>
+            <hr class="border-t border-gray-400 w-full">
+            <section class="p-7">
+                <h1 class="text-2xl font-bold ">🔥 Welcome to Payooo!</h1>
+                <p class="font-normal text-base opacity-50 mt-3">Enjoy easy and convenient financial services with us.
+                    Cashout charge is low and</p>
+            </section>
+
+            <!-- cards -->
+            <section class="p-7 grid grid-cols-3 gap-6">
+                <div class="bg-white flex rounded-lg border-2 border-gray-300 hover:translate-y-1 hover:duration-300">
+                    <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
+                        <img class="w-8" src="./Payoo-MFS-Resources/assets/wallet1.png" alt="">
+                        <p class="text-base font-normal opacity-50">Add money</p>
+                    </div>
+                </div>
+                <div class="bg-white flex rounded-lg border-2 border-gray-300 hover:translate-y-1 hover:duration-300">
+                    <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
+                        <img class="w-8" src="./Payoo-MFS-Resources/assets/send1.png" alt="">
+                        <p class="text-base font-normal opacity-50">Cashout</p>
+                    </div>
+                </div>
+                <div class="bg-white flex rounded-lg border-2 border-gray-300 hover:translate-y-1 hover:duration-300">
+                    <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
+                        <img class="w-8" src="./Payoo-MFS-Resources/assets/money1.png" alt="">
+                        <p class="text-base font-normal opacity-50">Money transfer</p>
+                    </div>
+                </div>
+                <div class="bg-white flex rounded-lg border-2 border-gray-300 hover:translate-y-1 hover:duration-300">
+                    <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
+                        <img class="w-8" src="./Payoo-MFS-Resources/assets/bonus1.png" alt="">
+                        <p class="text-base font-normal opacity-50">Get bonus</p>
+                    </div>
+                </div>
+                <div class="bg-white flex rounded-lg border-2 border-gray-300 hover:translate-y-1 hover:duration-300">
+                    <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
+                        <img class="w-8" src="./Payoo-MFS-Resources/assets/purse1.png" alt="">
+                        <p class="text-base font-normal opacity-50">Pay bill</p>
+                    </div>
+                </div>
+                <div class="bg-white flex rounded-lg border-2 border-gray-300  hover:translate-y-1 hover:duration-300">
+                    <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
+                        <img class="w-8" src="./Payoo-MFS-Resources/assets/transaction1.png" alt="">
+                        <p class="text-base font-normal opacity-50">Transactions</p>
+                    </div>
+                </div>
+
+            </section>
+        </header>
+        <main>
+            <section>
+                <h1>Add money</h1>
+                <div class="">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                        <div class="card bg-base-100 w-full max-w-xl shrink-0 shadow-2xl">
+                            <div class="card-body">
+                                <fieldset class="fieldset">
+                                    <label class="label">Email</label>
+                                    <input type="email" class="input" placeholder="Email" />
+                                    <label class="label">Password</label>
+                                    <input type="password" class="input" placeholder="Password" />
+                                    <div><a class="link link-hover">Forgot password?</a></div>
+                                    <button class="btn btn-neutral mt-4">Login</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
+
+    <script src="./script/main.js"></script>
+</body>
+
+</html>

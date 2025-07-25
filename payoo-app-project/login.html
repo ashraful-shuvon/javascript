@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo app</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-800">
+    <section class=" min-h-screen bg-gray-200 max-w-screen-sm mx-auto p-7">
+        <nav class="relative">
+            <div class="flex flex-col">
+                <div class="mx-auto mt-20">
+                    <img class="pl-10 w-5/6" src="./Payoo-MFS-Resources/assets/bg.png" alt="">
+                </div>
+                <div class="absolute left-32 lg:left-64 top-28">
+                    <img src="./Payoo-MFS-Resources/assets/Group.png" alt="">
+                </div>
+            </div>
+            <div class="hero mx-auto absolute top-60">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <div class="card bg-base-100 w-60 lg:w-80 shrink-0 shadow-2xl">
+                        <div class="card-body">
+                            <fieldset class="fieldset">
+                                <label class="label">Account number</label>
+                                <input id="ac-num" value="01950506095" type="number" class="input"
+                                    placeholder="AC number" />
+                                <label class="label">PIN</label>
+                                <input id="pin-num" value="1234" type="text" class="input" placeholder="PIN" />
+                                <div><a class="link link-hover">Forgot password?</a></div>
+                                <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <script src="./script/login.js"></script>
+</body>
+
+</html>
