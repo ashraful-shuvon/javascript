@@ -63,7 +63,8 @@
                         <p class="text-base font-normal opacity-50">Pay bill</p>
                     </div>
                 </div>
-                <div class="bg-white flex rounded-lg border-2 border-gray-300  hover:translate-y-1 hover:duration-300">
+                <div id="transaction-box"
+                    class="bg-white flex rounded-lg border-2 border-gray-300  hover:translate-y-1 hover:duration-300">
                     <div class="p-4 mx-auto gap-3 flex flex-col justify-center items-center">
                         <img class="w-8" src="./Payoo-MFS-Resources/assets/transaction1.png" alt="">
                         <p class="text-base font-normal opacity-50">Transactions</p>
@@ -130,10 +131,17 @@
                     </div>
                 </div>
             </section>
+
+            <section id="transaction-card">
+                <h1 class="p-7 text-xl text-blue-500 font-bold">Transactions history</h1>
+
+            </section>
         </main>
     </section>
 
-    <script src="./script/toggle.js"></script>
+    <script src="./script/transaction.js"></script>
+    <script src="./utilities/utilities.js"></script>
+    <script src="./utilities/toggle.js"></script>
     <script src="./script/addMoney.js"></script>
     <script src="./script/cashout.js"></script>
 </body>

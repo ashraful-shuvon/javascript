@@ -1,17 +1,15 @@
 document.getElementById("addMoney").addEventListener("click", function (event) {
   event.preventDefault();
-  const ammount = document.getElementById("ammount").value;
-  const convertedAmmount = parseFloat(ammount);
 
-  const pin = document.getElementById("pin-num").value;
-  const convertedPin = parseInt(pin);
+  const ammount = getInputValueById("ammount");
 
-  const mainBalance = document.getElementById("mainBalance").innerText;
-  const convertedMainBalance = parseFloat(mainBalance);
+  const pin = getInputValueById("pin-num");
 
-  if (convertedPin === 1234) {
-    const totalAmmount = convertedMainBalance + convertedAmmount;
-    document.getElementById("mainBalance").innerText = totalAmmount.toFixed(2);
+  const mainBalance = getInputByInnerText("mainBalance");
+
+  if (pin === 1234) {
+    const totalAmmount = mainBalance + ammount;
+    setInnerText("mainBalance", totalAmmount);
   } else {
     alert("Incorrect PIN.");
   }
