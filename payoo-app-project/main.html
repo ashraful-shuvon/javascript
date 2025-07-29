@@ -81,11 +81,11 @@
                         <div class="card w-full max-w-xl shrink-0 shadow-2xl ">
                             <div class="card-body">
                                 <legend>Select Bank</legend>
-                                <select class="select select-primary w-full">
+                                <select id="banks" class="select select-primary w-full">
                                     <option disabled selected>Select Bank</option>
                                     <option value="bkash">BKash</option>
                                     <option value="nagad">Nagad</option>
-                                    <option value="">Rocket</option>
+                                    <option value="rocket">Rocket</option>
                                 </select>
                                 <fieldset class="fieldset">
                                     <label class="label">Account number</label>
@@ -134,7 +134,9 @@
 
             <section id="transaction-card">
                 <h1 class="p-7 text-xl text-blue-500 font-bold">Transactions history</h1>
+                <div id="transaction-container" class="px-7">
 
+                </div>
             </section>
         </main>
     </section>

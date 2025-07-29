@@ -13,3 +13,7 @@ function getInputByInnerText(id) {
 function setInnerText(id, value) {
   document.getElementById(id).innerText = value.toFixed(2);
 }
+
+function handleToggle(id, status) {
+  document.getElementById(id).style.display = status;
+}
