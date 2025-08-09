@@ -21,5 +21,5 @@ const products = [
 
 // const singleProduct = products.find((p) => p.id === 3);
 // console.log(singleProduct.color);
-const [a, b] = [1, 2, 3, 4, 45, 5];
-console.log(a + b);
+// const [a, b] = [1, 2, 3, 4, 45, 5];
+// console.log(a + b);
